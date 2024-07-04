@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!--Use for responsiveness-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link for CSS -->
+    <link rel="stylesheet" href="style.css " />
+    <!-- link for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- link for Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Trend.io</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <a href="index.html" class="brand">Trend.io</a>
+      <div class="menu">
+        <div class="btn">
+          <i class="fas fa-times close-btn"></i>
+        </div>
+
+        <a href="index.html">Home</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#services">Services</a>
+        <a href="index.html#work">Work</a>
+        <a href="pricing.html">Pricing</a>
+      </div>
+      <button
+        class="btn-2 btn-visible"
+        onclick="window.location.href='contact.html'"
+      >
+        Contact Us
+      </button>
+      <div class="btn">
+        <i class="fas fa-bars menu-btn"></i>
+      </div>
+    </header>
+    <!-- Navbar End -->
+
+    <!-- Hero Page -->
+    <section class="hero-page">
+      <img src="gradient-voilet.png" alt="img" class="gradient gradient-v" />
+      <img src="gradient-blue.png" alt="img" class="gradient gradient-blue" />
+
+      <div class="hero-page-headline">
+        <h1>Amplify Your Brand's Reach and Resonance</h1>
+        <div class="tagline">
+          <h2>Online</h2>
+          <div class="tagline-sub">
+            <h3>DIGITAL MARKETING AGENCY</h3>
+          </div>
+        </div>
+        <p>
+          We create impactful digital solutions that redefine your brand's
+          online presence and propel it beyond the trends of today.
+        </p>
+        <button
+          class="btn-2 btn-blue"
+          onclick="window.location.href='contact.html'"
+        >
+          Get Started
+        </button>
+
+        <div class="brands">
+          <img src="logo/webflow.png" alt="img" />
+          <img src="logo/dribble.png" alt="img" />
+          <img src="logo/google.png" alt="img" />
+        </div>
+      </div>
+    </section>
+
+    <!-- HERO PAGE END -->
+
+    <!-- Work Preview -->
+    <div class="preview" id="workPreview">
+      <div class="work-preview-box">
+        <img src="work-img/work-2.png" alt="img" />
+      </div>
+      <div class="work-preview-box">
+        <img src="work-img/work-1.png" alt="img" />
+      </div>
+      <div class="work-preview-box">
+        <img src="work-img/work-4.png" alt="img" />
+      </div>
+      <div class="work-preview-box">
+        <img src="work-img/work-3.png" alt="img" />
+      </div>
+    </div>
+    <!-- Work Preview End-->
+
+    <!-- Testimony Preview -->
+    <div class="preview" id="testimonyPreview">
+      <div class="testimony-preview-box">
+        <p>
+          "Trend.io keeps revolutionizing their online presence, bringing their
+          designs to life and attracting unprecedented client interest."
+        </p>
+        <div class="testimony-people">
+          <img src="testimonyImg/testimony-img-1.png" alt="img" />
+          <div class="testimony-people-name">
+            <h5>Alex Rivera</h5>
+            <h6>Creative Lead at Dribble</h6>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimony-preview-box">
+        <p>
+          "Their expertise in digital marketing has resulted in a significant
+          increase in our online engagement and conversions."
+        </p>
+        <div class="testimony-people">
+          <img src="testimonyImg/testimony-img-2.png" alt="img" />
+          <div class="testimony-people-name">
+            <h5>Sarah Dunphy</h5>
+            <h6>Marketing Director at Google</h6>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimony-preview-box">
+        <p>
+          "Trend.io helped us with their strategic insights and
+          innovative campaigns which have revolutionized our digital marketing
+          efforts."
+        </p>
+        <div class="testimony-people">
+          <img src="testimonyImg/testimony-img-3.png" alt="img" />
+          <div class="testimony-people-name">
+            <h5>Emily Chen</h5>
+            <h6>Head of Web Development at Webflow</h6>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimony-preview-box">
+        <p>
+          "The targeted SEO efforts by Trend.io have placed us among the top
+          three search results, driving a 50% increase in organic traffic."
+        </p>
+        <div class="testimony-people">
+          <img src="testimonyImg/testimony-img-4.png" alt="img" />
+          <div class="testimony-people-name">
+            <h5>Anvara Sadique</h5>
+            <h6>Product Manager at Figma</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Testimony Preview End -->
+
+    <!-- Services Section -->
+     <section class="services" id="services">
+      <img src="gradient-light-blue.png" alt="img" class="gradient gradient-light-blue"/>
+      <img src="gradient-blue.png" alt="img" class="gradient gradient-blue"/>
+
+      <h1>What We Do</h1>
+      <p>
+        At Trend.io, we offer a diverse range of services designed to enhance your brand's digital presence, engage your audience, and drive measurable success in the ever-evolving online landscape.
+      </p>
+
+      <div class="service-boxes">
+        <div class="service-box" id="service-box-1">
+          <img src="services-img/service-img-1.png" alt="service-img" id="service-img-ss"/>
+
+          <img src="services-img/service-img-2.png" alt="service-img"/>
+        </div>
+
+        <div class="service-boxes">
+          <div class="service-box" id="service-box-2">
+            <img src="services-img/service-img-3.png" alt="service-img" />
+  
+            <img src="services-img/service-img-4.png" alt="service-img"/>
+            <img src="services-img/service-img-5.png
+            " alt="service-img"/>
+          </div>
+      </div>
+     </section>
+     
+     <!-- Services Section End -->
+
+     <!-- About Section -->
+     <section class="about" id="about">
+      <img src="gradient-light-blue.png" alt="img" class="gradient gradient-light-blue"/>
+      <img src="gradient-voilet.png" alt="img" class="gradient gradient-voilet"/>
+    
+      <h1>With Over</h1>
+    
+      <div class="about-datas">
+        <div class="about-data">
+          <h4>200+</h4>
+          <p>Finished Projects</p>
+        </div>
+        <hr />
+        <div class="about-data">
+          <h4>25%</h4>
+          <p>Conversion Rate</p>
+        </div>
+        <hr />
+        <div class="about-data">
+          <h4>5+</h4>
+          <p>Industry Awards</p>
+        </div>
+      </div>
+    
+      <div class="about-container">
+        <div class="about-headlines">
+          <h1>We Propel Brands Beyond Limits</h1>
+          <p>
+            We are not just a digital marketing agency, We are the architects of innovation and champions of digital transformation.
+          </p>
+          <p>
+            Our Portfolio proudly showcases a diverse range of collaborations with industry-leading enterprises, innovative startups, and visionary organisations
+          </p>
+          <div class="brands">
+            <img src="logo/webflow.png" alt="img" />
+            <img src="logo/dribble.png" alt="img" />
+            <img src="logo/google.png" alt="img" />
+          </div>
+    
+          <button type="button" class="btn-2 btn-blue" onclick="window.location.href='contact.html'">
+            Get Started
+          </button>
+        </div>
+    
+        <div class="about-img">
+          <div>
+            <img src="aboutImg/about-img-1.png" alt="img" id="about-img-short" />
+            <img src="aboutImg/about-img-2.png" alt="img" />
+          </div>
+          <div>
+            <img src="aboutImg/about-img-3.png" alt="img" />
+            <img src="aboutImg/about-img-4.png" alt="img" id="about-img-short" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section End -->
+
+    <!-- Work Section -->
+
+    <section class="work" id="work">
+      <img src="gradient-light-blue.png" alt="img" class="gradient gradient-lightblue" />
+      <img src="gradient-voilet.png" alt="img" class="gradient gradient-violet" />
+
+      <h1>Some of our Works</h1>
+      <hr />
+
+      <div class="work-boxes">
+        <div class="work-box">
+          <img src="work-img/work-5.png" alt="img">
+          <div class="work-tags">
+            <p>SEO</p>
+            <p>Social Media</p>
+          </div>
+        </div>
+
+        <div class="work-box">
+          <img src="work-img/work-6.png" alt="img">
+          <div class="work-tags">
+            <p>Web Design</p>
+            <p>Social Media</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="work-boxes">
+        <div class="work-box">
+          <img src="work-img/work-7.png" alt="img">
+          <div class="work-tags">
+            <p>SEO</p>
+            <p>Content Marketing</p>
+          </div>
+        </div>
+
+        <div class="work-box">
+          <img src="work-img/work-8.png" alt="img">
+          <div class="work-tags">
+            <p>Web Design</p>
+            <p>Content Marketing</p>
+          </div>
+        </div>
+      </div>
+
+      <button type="button" class="btn-2 btn-blue" onclick="window.location.href='contact.html'">
+        Get Started
+      </button>
+    </section>
+
+    <!-- Footer Section -->
+ 
+    <section class="footer">
+      <hr id="f-hr"/>
+      
+      <div class="footer-callout">
+        <a href="/">Trend.io</a>
+        <div>
+          <h5>Ready to get started?</h5>
+          <button type="button" class="btn-2 btn-callout" onclick="window.location.href='contact.html'">
+            Contact Us <i class="fa-solid fa-arrow-up"></i>
+          </button>
+        </div>
+      </div>
+
+      <hr id="bf-hr" />
+
+      <div class="bottom-footer">
+        <div class="newsletter">
+          <p>Subscribe to our newsletter</p>
+
+          <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="4fc528af-bffa-4a1e-8382-573964dcf46d"/>
+
+            <input type="email" name="email_newsletter" placeholder="Email Address" />
+
+            <button type="submit">
+              <i class="fa-solid fa-arrow-up"></i>
+            </button>
+          </form>
+        </div>
+
+        <div class="footer-links">
+          <div class="footer-link">
+            <h6>Services</h6>
+            <div class="navigation">
+              <a href="pricing.html">Media Marketing</a>
+              <a href="pricing.html">Content Marketing</a>
+              <a href="pricing.html">Digital Consultation</a>
+              <a href="pricing.html">Web Design</a>
+              <a href="pricing.html">SEO</a>
+            </div>
+          </div>
+
+          <div class="footer-link">
+            <h6>Navigation</h6>
+            <div class="navigation">
+              <a href="index.html">Home</a>
+              <a href="index.html#about">About</a>
+              <a href="index.html#services">Services</a>
+              <a href="pricing.html">Pricing</a>
+            </div>
+          </div>
+
+          <div class="footer-link">
+            <h6>Help</h6>
+            <div class="navigation">
+              <a href="contact.html">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr id="bf-hr">
+
+      <div class="socials">
+        <div class="social-media">
+          <a href="social-box"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="social-box"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="social-box"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="social-box"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+
+
+        <p>@ 2024 All Rights Reserved</p>
+
+      </div>
+    </section>
+
+
+    <script src="index.js"></script>
+
+  </body>
+</html>
